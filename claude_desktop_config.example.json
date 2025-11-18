@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "api-gateway": {
+      "command": "node",
+      "args": [
+        "/absolute/path/to/mcp-api-gateway-template/dist/index.js"
+      ],
+      "env": {
+        "OPENWEATHER_API_KEY": "your_openweather_api_key_here"
+      }
+    }
+  }
+}
