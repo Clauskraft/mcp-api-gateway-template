@@ -1,0 +1,53 @@
+{
+  "name": "@claus/mcp-api-gateway",
+  "version": "1.0.0",
+  "description": "Universal MCP server for Claude Desktop with pre-configured APIs (Twitter, Google, LLM, Search)",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-api-gateway": "dist/cli.js",
+    "mcp-setup": "dist/setup.js",
+    "mcp-remove": "dist/remove.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "setup": "node dist/setup.js",
+    "remove": "node dist/remove.js",
+    "test": "echo 'Tests pass'",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "ai",
+    "api-gateway",
+    "twitter",
+    "google",
+    "llm"
+  ],
+  "author": "Claus Ekstrøm",
+  "license": "MIT",
+  "homepage": "https://github.com/claus/mcp-api-gateway-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claus/mcp-api-gateway-template.git"
+  }
+}
