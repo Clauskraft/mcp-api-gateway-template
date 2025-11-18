@@ -1,0 +1,15 @@
+# MCP API Gateway - Cursor Rules
+
+## Quick Start
+- `make setup` - Full setup
+- `make dev` - Dev mode
+- `make start` - Run server
+
+## Tools Available
+- twitter_search
+- google_search
+- llm_complete
+- search_brave
+
+## API Configuration
+Set in .env: TWITTER_BEARER_TOKEN, GOOGLE_API_KEY, OPENAI_API_KEY, BRAVE_API_KEY
