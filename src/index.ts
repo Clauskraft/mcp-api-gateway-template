@@ -54,10 +54,15 @@ const tools: Tool[] = [
   }
 ];
 
-const server = new Server({
-  name: "mcp-api-gateway",
-  version: "1.0.0"
-});
+const server = new Server(
+  {
+    name: "mcp-api-gateway",
+    version: "1.0.0"
+  },
+  {
+    capabilities: {}
+  }
+);
 
 server.setRequestHandler(ListToolsRequestSchema, async () => ({
   tools

@@ -1,5 +1,5 @@
 {
-  "name": "@claus/mcp-api-gateway",
+  "name": "@clauskraft/mcp-api-gateway",
   "version": "1.0.0",
   "description": "Universal MCP server for Claude Desktop with pre-configured APIs (Twitter, Google, LLM, Search)",
   "type": "module",
@@ -45,9 +45,9 @@
   ],
   "author": "Claus Ekstrøm",
   "license": "MIT",
-  "homepage": "https://github.com/claus/mcp-api-gateway-template",
+  "homepage": "https://github.com/Clauskraft/mcp-api-gateway-template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/claus/mcp-api-gateway-template.git"
+    "url": "https://github.com/Clauskraft/mcp-api-gateway-template.git"
   }
 }
