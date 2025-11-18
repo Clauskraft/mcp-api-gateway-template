@@ -1,20 +1,13 @@
 {
-  "name": "@clauskraft/mcp-api-gateway",
+  "name": "mcp-gateway-universal",
   "version": "1.0.0",
   "description": "Universal MCP server for Claude Desktop with pre-configured APIs (Twitter, Google, LLM, Search)",
   "type": "module",
   "main": "dist/index.js",
-  "bin": {
-    "mcp-api-gateway": "dist/cli.js",
-    "mcp-setup": "dist/setup.js",
-    "mcp-remove": "dist/remove.js"
-  },
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
     "start": "node dist/index.js",
-    "setup": "node dist/setup.js",
-    "remove": "node dist/remove.js",
     "test": "echo 'Tests pass'",
     "prepare": "npm run build"
   },
